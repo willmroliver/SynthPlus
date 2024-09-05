@@ -144,12 +144,12 @@ CMakeFiles/MusicPlus.dir/clean:
 CMakeFiles/test_exec.dir/all: CMakeFiles/MusicPlus.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=5,6 "Built target test_exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=5,6,7,8,9 "Built target test_exec"
 .PHONY : CMakeFiles/test_exec.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_exec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/willoliver/Play/music/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/willoliver/Play/music/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_exec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/willoliver/Play/music/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_exec.dir/rule

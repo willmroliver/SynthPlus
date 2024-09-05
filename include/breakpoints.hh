@@ -99,6 +99,10 @@ class Breakpoints {
             return points.end();
         }
 
+        size_t size() const noexcept {
+            return points.size();
+        }
+
         std::string name(std::string fname) {
             if (fname == "") {
                 return this->fname;
