@@ -69,10 +69,52 @@ include CMakeFiles/test_exec.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_exec.dir/flags.make
 
+CMakeFiles/test_exec.dir/test/test.cc.o: CMakeFiles/test_exec.dir/flags.make
+CMakeFiles/test_exec.dir/test/test.cc.o: /Users/willoliver/Play/music/test/test.cc
+CMakeFiles/test_exec.dir/test/test.cc.o: CMakeFiles/test_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_exec.dir/test/test.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_exec.dir/test/test.cc.o -MF CMakeFiles/test_exec.dir/test/test.cc.o.d -o CMakeFiles/test_exec.dir/test/test.cc.o -c /Users/willoliver/Play/music/test/test.cc
+
+CMakeFiles/test_exec.dir/test/test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_exec.dir/test/test.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willoliver/Play/music/test/test.cc > CMakeFiles/test_exec.dir/test/test.cc.i
+
+CMakeFiles/test_exec.dir/test/test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_exec.dir/test/test.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willoliver/Play/music/test/test.cc -o CMakeFiles/test_exec.dir/test/test.cc.s
+
+CMakeFiles/test_exec.dir/test/breakpoints.cc.o: CMakeFiles/test_exec.dir/flags.make
+CMakeFiles/test_exec.dir/test/breakpoints.cc.o: /Users/willoliver/Play/music/test/breakpoints.cc
+CMakeFiles/test_exec.dir/test/breakpoints.cc.o: CMakeFiles/test_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_exec.dir/test/breakpoints.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_exec.dir/test/breakpoints.cc.o -MF CMakeFiles/test_exec.dir/test/breakpoints.cc.o.d -o CMakeFiles/test_exec.dir/test/breakpoints.cc.o -c /Users/willoliver/Play/music/test/breakpoints.cc
+
+CMakeFiles/test_exec.dir/test/breakpoints.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_exec.dir/test/breakpoints.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willoliver/Play/music/test/breakpoints.cc > CMakeFiles/test_exec.dir/test/breakpoints.cc.i
+
+CMakeFiles/test_exec.dir/test/breakpoints.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_exec.dir/test/breakpoints.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willoliver/Play/music/test/breakpoints.cc -o CMakeFiles/test_exec.dir/test/breakpoints.cc.s
+
+CMakeFiles/test_exec.dir/test/exp.cc.o: CMakeFiles/test_exec.dir/flags.make
+CMakeFiles/test_exec.dir/test/exp.cc.o: /Users/willoliver/Play/music/test/exp.cc
+CMakeFiles/test_exec.dir/test/exp.cc.o: CMakeFiles/test_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_exec.dir/test/exp.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_exec.dir/test/exp.cc.o -MF CMakeFiles/test_exec.dir/test/exp.cc.o.d -o CMakeFiles/test_exec.dir/test/exp.cc.o -c /Users/willoliver/Play/music/test/exp.cc
+
+CMakeFiles/test_exec.dir/test/exp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_exec.dir/test/exp.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/willoliver/Play/music/test/exp.cc > CMakeFiles/test_exec.dir/test/exp.cc.i
+
+CMakeFiles/test_exec.dir/test/exp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_exec.dir/test/exp.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/willoliver/Play/music/test/exp.cc -o CMakeFiles/test_exec.dir/test/exp.cc.s
+
 CMakeFiles/test_exec.dir/test/main.cc.o: CMakeFiles/test_exec.dir/flags.make
 CMakeFiles/test_exec.dir/test/main.cc.o: /Users/willoliver/Play/music/test/main.cc
 CMakeFiles/test_exec.dir/test/main.cc.o: CMakeFiles/test_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_exec.dir/test/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_exec.dir/test/main.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_exec.dir/test/main.cc.o -MF CMakeFiles/test_exec.dir/test/main.cc.o.d -o CMakeFiles/test_exec.dir/test/main.cc.o -c /Users/willoliver/Play/music/test/main.cc
 
 CMakeFiles/test_exec.dir/test/main.cc.i: cmake_force
@@ -85,16 +127,22 @@ CMakeFiles/test_exec.dir/test/main.cc.s: cmake_force
 
 # Object files for target test_exec
 test_exec_OBJECTS = \
+"CMakeFiles/test_exec.dir/test/test.cc.o" \
+"CMakeFiles/test_exec.dir/test/breakpoints.cc.o" \
+"CMakeFiles/test_exec.dir/test/exp.cc.o" \
 "CMakeFiles/test_exec.dir/test/main.cc.o"
 
 # External object files for target test_exec
 test_exec_EXTERNAL_OBJECTS =
 
+test_exec: CMakeFiles/test_exec.dir/test/test.cc.o
+test_exec: CMakeFiles/test_exec.dir/test/breakpoints.cc.o
+test_exec: CMakeFiles/test_exec.dir/test/exp.cc.o
 test_exec: CMakeFiles/test_exec.dir/test/main.cc.o
 test_exec: CMakeFiles/test_exec.dir/build.make
 test_exec: libMusicPlus.a
 test_exec: CMakeFiles/test_exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/willoliver/Play/music/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_exec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

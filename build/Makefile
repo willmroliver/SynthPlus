@@ -214,6 +214,54 @@ src/sin.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MusicPlus.dir/build.make CMakeFiles/MusicPlus.dir/src/sin.cc.s
 .PHONY : src/sin.cc.s
 
+test/breakpoints.o: test/breakpoints.cc.o
+.PHONY : test/breakpoints.o
+
+# target to build an object file
+test/breakpoints.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/breakpoints.cc.o
+.PHONY : test/breakpoints.cc.o
+
+test/breakpoints.i: test/breakpoints.cc.i
+.PHONY : test/breakpoints.i
+
+# target to preprocess a source file
+test/breakpoints.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/breakpoints.cc.i
+.PHONY : test/breakpoints.cc.i
+
+test/breakpoints.s: test/breakpoints.cc.s
+.PHONY : test/breakpoints.s
+
+# target to generate assembly for a file
+test/breakpoints.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/breakpoints.cc.s
+.PHONY : test/breakpoints.cc.s
+
+test/exp.o: test/exp.cc.o
+.PHONY : test/exp.o
+
+# target to build an object file
+test/exp.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/exp.cc.o
+.PHONY : test/exp.cc.o
+
+test/exp.i: test/exp.cc.i
+.PHONY : test/exp.i
+
+# target to preprocess a source file
+test/exp.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/exp.cc.i
+.PHONY : test/exp.cc.i
+
+test/exp.s: test/exp.cc.s
+.PHONY : test/exp.s
+
+# target to generate assembly for a file
+test/exp.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/exp.cc.s
+.PHONY : test/exp.cc.s
+
 test/main.o: test/main.cc.o
 .PHONY : test/main.o
 
@@ -238,6 +286,30 @@ test/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/main.cc.s
 .PHONY : test/main.cc.s
 
+test/test.o: test/test.cc.o
+.PHONY : test/test.o
+
+# target to build an object file
+test/test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/test.cc.o
+.PHONY : test/test.cc.o
+
+test/test.i: test/test.cc.i
+.PHONY : test/test.i
+
+# target to preprocess a source file
+test/test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/test.cc.i
+.PHONY : test/test.cc.i
+
+test/test.s: test/test.cc.s
+.PHONY : test/test.s
+
+# target to generate assembly for a file
+test/test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exec.dir/build.make CMakeFiles/test_exec.dir/test/test.cc.s
+.PHONY : test/test.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,9 +329,18 @@ help:
 	@echo "... src/sin.o"
 	@echo "... src/sin.i"
 	@echo "... src/sin.s"
+	@echo "... test/breakpoints.o"
+	@echo "... test/breakpoints.i"
+	@echo "... test/breakpoints.s"
+	@echo "... test/exp.o"
+	@echo "... test/exp.i"
+	@echo "... test/exp.s"
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 
