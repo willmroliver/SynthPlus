@@ -32,6 +32,7 @@ class Breakpoints {
     private:
         std::string fname;
         std::map<T, V> points;
+        V zero;
 
     public:
         Breakpoints() = default;
@@ -56,7 +57,27 @@ class Breakpoints {
         };
 
         V& operator[](const T t) noexcept {
-            return points[t];
+            if (points.empty()) {
+                return points[t];
+            }
+
+            auto lb = points.lower_bound(t);
+            auto ub = points.upper_bound(t);
+
+            if (lb == points.end()) {
+                ub = lb;
+            } else if (ub == points.end()) {
+                lb = ub;
+            }
+
+            auto ldiff = std::abs(lb->first - t);
+            auto udiff = std::abs(ub->first - t);
+
+            if (std::min(ldiff, udiff) > 1e-8) {
+                return points[t];
+            }
+
+            return ldiff < udiff ? lb->second : ub->second;
         }
 
         Breakpoints<T, V>& operator+=(T shift) {
